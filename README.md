@@ -7,7 +7,7 @@ To perform Amplitude Shift Keying{ASK} using Python
 ## APPARATUS REQUIRED:
 Python: A versatile programming language used for scientific computing and signal processing. NumPy: A powerful numerical library in Python for performing array-based operations and mathematical computations. Matplotlib: A plotting library for generating high-quality graphs and visualizations of data, essentialfor demonstrating the sampling process.
 ## PROGRAM
-
+```
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -54,7 +54,7 @@ plt.step(np.arange(len(decoded_bits)), decoded_bits, label='Decoded Bits', color
 plt.title('Decoded Bits')
 plt.tight_layout()
 plt.show()
-
+```
 ## OUTPUT WAVEFORM
 ![image](https://github.com/user-attachments/assets/f29e540b-f803-4605-aa03-4f9ffbf00d4f)
 ## Graph
